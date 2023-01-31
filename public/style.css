@@ -1,0 +1,188 @@
+/* .rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+/* 
+.hero {
+  position: relative;
+  z-index: 10;
+} */
+
+.notifstart {
+  color: black;
+}
+
+.notification {
+  width: 100%;
+  height: 100%;
+} 
+
+#colorbox1 {
+  
+  float: left;
+  padding: 10%;
+  width: 20%;
+  height: 20%;
+  background-color: red;
+}
+
+#colorbox2 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 20%;
+  background-color: blue;
+}
+#colorbox3 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 15%;
+  background-color: green;
+}
+#colorbox4 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 15%;
+  background-color: yellow;
+}
+#colorbox5 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 15%;
+  background-color: purple;
+}
+
+#conbox1 {
+  float: left;
+  padding: 10%;
+  width: 20%;
+  height: 20%;
+  background-color: #68505f;
+}
+
+#conbox2 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 20%;
+  background-color: #c2ced6;
+}
+#conbox3 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 15%;
+  background-color:#c95ea6;
+}
+#conbox4 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 15%;
+  background-color: #18141a;
+}
+#conbox5 {
+  float: left;
+  padding: 10%;
+  width: 15%;
+  height: 15%;
+  background-color: #bc3d1a;
+}
+
+
+
+.pic {
+  padding: 50px;
+  max-width: 1500px;
+  max-height: 1500px;
+}
+
+.boxes {
+  padding-left: 50px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.conboxes {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.comboxes {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.colortext {
+  padding-top: 5%;
+  padding-left: 50px;
+  padding-bottom: 1%;
+}
+
+.context {
+  padding-top: 17%;
+  padding-left: 50px;
+  padding-bottom: 1%;
+}
+
+.comtext {
+  padding-top: 17%;
+  padding-left: 50px;
+  padding-bottom: 1%;
+}
+
+.ft {
+  padding-top: 200px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#login {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#signup {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.have-acct {
+  color: black;
+  padding-top: 50px;
+  font-weight: 900;
+  padding-left: 20%;
+  padding-bottom: 0px;
+}
+
+.sign-up { 
+  color: black;
+  padding-top: 50px;
+  font-weight: 900;
+  padding-left: 20%;
+  padding-bottom: 0px;
+}
+
+p {
+  padding: 10%;
+  font-weight: 900;
+  color: white;
+}
+
+.footerp {
+  color: black;
+}

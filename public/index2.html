@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Colorize</title>
+</head>
+
+<body>
+<section id="hero" class="hero is-danger is-fullheight-with-navbar">
+  <nav class="navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a id="" href="#" class="is-large navbar-item is-white">
+        </a>
+        <div class="navbar-burger burger" data-target="navmenu" aria-label="menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="navbar-menu" id="navmenu">
+        <div class="navbar-end">
+          <a id="nav-hero" href="#hero" class="navbar-item">HOME</a>
+          <a id="nav-info" href="#info" class="navbar-item">INFO</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="mainbody" class="hero-body is-right">
+    <div class="container">
+      <div id="notif" class="notification">
+        <button id="notifx" class="delete"></button>
+        Welcome to Colorize, an app that provides you colors from a picture.
+      </div>
+      <h1 class="title is-black">
+        Colorize
+      </h1>
+      <h2 id="start" class="subtitle">
+        Start here:
+      </h2>
+      <div class="form-group">
+        <form action="/" method="POST" enctype="multipart/form-data">
+          <input type="file" name="upload" multiple />
+          <div class="container">
+            <input id="uplaod-btn" type="submit" value="Upload" /><span>Upload Photo here</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{!-- <section id="pictures">
+  <div class="pic is-centered">
+    <img src="https://via.placeholder.com/850x550">
+  </div> --}}
+
+  <div class="maincolors">
+  <h3 class="colortext">Here are your top 5 colors:</h3>
+
+  <div class="boxes">
+    <div id="colorbox1">
+      <p class ="hexvalue1">hexvalue</p>
+    </div>
+
+
+    <div id="colorbox2">
+      <p class ="hexvalue2">hexvalue</p>
+    </div>
+
+
+    <div id="colorbox3">
+      <p class ="hexvalue3">hexvalue</p>
+    </div>
+
+
+    <div id="colorbox4">
+      <p class ="hexvalue4">hexvalue</p>
+    </div>
+
+
+    <div id="colorbox5">
+      <p class ="hexvalue5">hexvalue</p>
+    </div>
+  </div>
+</section>
+</div>
+
+
+  <div class="contrasting">
+  <h3 class="context">Here are your contrasting colors:</h3>
+
+  <div class="conboxes">
+    <div id="conbox1">
+    </div>
+
+
+    <div id="conbox2">
+    </div>
+
+
+    <div id="conbox3">
+    </div>
+
+
+    <div id="conbox4">
+    </div>
+
+
+    <div id="conbox5">
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+
+
+<section id="info">
+  <div class="ft">
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p class = "footerp">
+          <strong>Colorize</strong> by Max Daniel, Corbin James, and Sean Mena. Find the link to
+          our Github project <a href="https://github.com/maxonemillion/Project2">Here</a>.
+
+        </p>
+      </div>
+    </footer>
+  </div>
+</section>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<script src="colors.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>
